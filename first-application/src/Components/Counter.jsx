@@ -14,7 +14,7 @@ const Counter = () => {
   return (
     <div>
        <h1>Counter Component</h1>
-         cout : {count}
+         cout :{count} {(count%2==0)?"even" : "odd"}
          <br/>
         <button onClick={()=>{Inc()}}>Inc</button>
         <button onClick={()=>{Dec()}}>Dec</button>
