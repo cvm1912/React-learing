@@ -1,9 +1,11 @@
-import React from 'react'
+
+import Pokedesk from './Component/Pokedesk/Pokedesk'
+import './index.css'
 
 const App = () => {
   return (
-    <div>
-      <h1>Pocket-x</h1>
+    <div className='pokie-container'>
+        <Pokedesk/>
     </div>
   )
 }

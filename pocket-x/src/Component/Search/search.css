@@ -1,0 +1,11 @@
+
+
+#pokiemon-search{
+    width: 500px;
+    padding: 10px;
+
+}
+
+.search-wrapper input {
+  text-align: left;
+}
