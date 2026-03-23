@@ -1,0 +1,16 @@
+.pokemon-list {
+  padding: 20px;
+   min-height: 100vh;
+}
+
+
+.pokemon-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
